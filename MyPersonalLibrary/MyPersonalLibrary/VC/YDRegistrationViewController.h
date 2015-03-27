@@ -13,6 +13,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "YDConfigurationHelper.h"
 @protocol YDRegistrationViewControllerDelegate <NSObject>
 
 -(void)registeredWithSuccess;

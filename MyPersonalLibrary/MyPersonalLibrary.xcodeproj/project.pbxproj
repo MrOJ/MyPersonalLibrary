@@ -22,6 +22,12 @@
 		1846F9E11AC2F1A6006067BA /* YDConfigurationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1846F9D31AC2F1A6006067BA /* YDConfigurationHelper.m */; };
 		1846F9E21AC2F1A6006067BA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1846F9D51AC2F1A6006067BA /* Icon.png */; };
 		1846F9E31AC2F1A6006067BA /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1846F9D61AC2F1A6006067BA /* Icon@2x.png */; };
+		18CE37951AC5775200EF6141 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE37941AC5775200EF6141 /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18CE37981AC5775F00EF6141 /* YDCrashHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE37971AC5775F00EF6141 /* YDCrashHandler.m */; };
+		18CE379F1AC5776D00EF6141 /* YDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE379A1AC5776D00EF6141 /* YDLoginViewController.m */; };
+		18CE37A01AC5776D00EF6141 /* YDLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CE379B1AC5776D00EF6141 /* YDLoginViewController.xib */; };
+		18CE37A11AC5776D00EF6141 /* YDRegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE379D1AC5776D00EF6141 /* YDRegistrationViewController.m */; };
+		18CE37A21AC5776D00EF6141 /* YDRegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CE379E1AC5776D00EF6141 /* YDRegistrationViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +65,17 @@
 		1846F9D31AC2F1A6006067BA /* YDConfigurationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDConfigurationHelper.m; sourceTree = "<group>"; };
 		1846F9D51AC2F1A6006067BA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		1846F9D61AC2F1A6006067BA /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		1846F9E81AC2F625006067BA /* MyPersonalLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyPersonalLibrary-Prefix.pch"; sourceTree = "<group>"; };
+		18CE37931AC5775200EF6141 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		18CE37941AC5775200EF6141 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		18CE37961AC5775F00EF6141 /* YDCrashHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDCrashHandler.h; sourceTree = "<group>"; };
+		18CE37971AC5775F00EF6141 /* YDCrashHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDCrashHandler.m; sourceTree = "<group>"; };
+		18CE37991AC5776D00EF6141 /* YDLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDLoginViewController.h; sourceTree = "<group>"; };
+		18CE379A1AC5776D00EF6141 /* YDLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDLoginViewController.m; sourceTree = "<group>"; };
+		18CE379B1AC5776D00EF6141 /* YDLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YDLoginViewController.xib; sourceTree = "<group>"; };
+		18CE379C1AC5776D00EF6141 /* YDRegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDRegistrationViewController.h; sourceTree = "<group>"; };
+		18CE379D1AC5776D00EF6141 /* YDRegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDRegistrationViewController.m; sourceTree = "<group>"; };
+		18CE379E1AC5776D00EF6141 /* YDRegistrationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YDRegistrationViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				1846F9971AC2F0FE006067BA /* Info.plist */,
+				1846F9E81AC2F625006067BA /* MyPersonalLibrary-Prefix.pch */,
 				1846F9981AC2F0FE006067BA /* main.m */,
 			);
 			name = "Supporting Files";
@@ -173,6 +191,8 @@
 		1846F9C81AC2F1A6006067BA /* CrashHandler */ = {
 			isa = PBXGroup;
 			children = (
+				18CE37961AC5775F00EF6141 /* YDCrashHandler.h */,
+				18CE37971AC5775F00EF6141 /* YDCrashHandler.m */,
 			);
 			path = CrashHandler;
 			sourceTree = "<group>";
@@ -188,6 +208,7 @@
 		1846F9CD1AC2F1A6006067BA /* Externals */ = {
 			isa = PBXGroup;
 			children = (
+				18CE37921AC5775200EF6141 /* KeyChain */,
 			);
 			path = Externals;
 			sourceTree = "<group>";
@@ -213,8 +234,23 @@
 		1846F9D71AC2F1A6006067BA /* VC */ = {
 			isa = PBXGroup;
 			children = (
+				18CE37991AC5776D00EF6141 /* YDLoginViewController.h */,
+				18CE379A1AC5776D00EF6141 /* YDLoginViewController.m */,
+				18CE379B1AC5776D00EF6141 /* YDLoginViewController.xib */,
+				18CE379C1AC5776D00EF6141 /* YDRegistrationViewController.h */,
+				18CE379D1AC5776D00EF6141 /* YDRegistrationViewController.m */,
+				18CE379E1AC5776D00EF6141 /* YDRegistrationViewController.xib */,
 			);
 			path = VC;
+			sourceTree = "<group>";
+		};
+		18CE37921AC5775200EF6141 /* KeyChain */ = {
+			isa = PBXGroup;
+			children = (
+				18CE37931AC5775200EF6141 /* KeychainItemWrapper.h */,
+				18CE37941AC5775200EF6141 /* KeychainItemWrapper.m */,
+			);
+			path = KeyChain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,7 +333,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CE37A21AC5776D00EF6141 /* YDRegistrationViewController.xib in Resources */,
 				1846F9E21AC2F1A6006067BA /* Icon.png in Resources */,
+				18CE37A01AC5776D00EF6141 /* YDLoginViewController.xib in Resources */,
 				1846F9A21AC2F0FE006067BA /* Main.storyboard in Resources */,
 				1846F9A71AC2F0FE006067BA /* LaunchScreen.xib in Resources */,
 				1846F9A41AC2F0FE006067BA /* Images.xcassets in Resources */,
@@ -319,11 +357,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CE37A11AC5776D00EF6141 /* YDRegistrationViewController.m in Sources */,
 				1846F9E11AC2F1A6006067BA /* YDConfigurationHelper.m in Sources */,
 				1846F99F1AC2F0FE006067BA /* ViewController.m in Sources */,
+				18CE37951AC5775200EF6141 /* KeychainItemWrapper.m in Sources */,
+				18CE37981AC5775F00EF6141 /* YDCrashHandler.m in Sources */,
 				1846F99C1AC2F0FE006067BA /* AppDelegate.m in Sources */,
 				1846F9DE1AC2F1A6006067BA /* NSString+MD5.m in Sources */,
 				1846F9991AC2F0FE006067BA /* main.m in Sources */,
+				18CE379F1AC5776D00EF6141 /* YDLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +488,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyPersonalLibrary/MyPersonalLibrary-Prefix.pch";
 				INFOPLIST_FILE = MyPersonalLibrary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -458,6 +502,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyPersonalLibrary/MyPersonalLibrary-Prefix.pch";
 				INFOPLIST_FILE = MyPersonalLibrary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -518,6 +564,7 @@
 				1846F9B81AC2F0FE006067BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1846F9B91AC2F0FE006067BA /* Build configuration list for PBXNativeTarget "MyPersonalLibraryTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +573,7 @@
 				1846F9BB1AC2F0FE006067BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

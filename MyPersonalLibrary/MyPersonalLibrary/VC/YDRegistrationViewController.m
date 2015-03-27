@@ -58,6 +58,7 @@
         //get username [keychain objectForKey:(__bridge id)kSecAttrAccount]);
         //get password [keychain objectForKey:(__bridge id)kSecValueData]);
         [YDConfigurationHelper setBoolValueForConfigurationKey:bYDRegistered withValue:YES];
+    
         [self.delegate registeredWithSuccess];
         //or
         //[self.delegate registeredWithError];

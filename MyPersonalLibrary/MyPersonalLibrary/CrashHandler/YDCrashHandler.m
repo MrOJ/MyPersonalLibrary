@@ -48,10 +48,9 @@ const NSInteger UncaughtExceptionHandlerReportAddressCount = 5;
 
 - (void)alertView:(UIAlertView *)anAlertView clickedButtonAtIndex:(NSInteger)anIndex
 {
-        //if (anIndex == 0)
-        //	{
+
     dismissed = YES;
-        //	}
+
 }
 
 
